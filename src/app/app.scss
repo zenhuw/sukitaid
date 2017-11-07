@@ -14,3 +14,29 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+ // Custom icons
+// Overriding the ion-icon behavior
+// All custom icons will start with "appname-" prefix
+ion-icon {
+    &[class*="appname-"] {
+        // Instead of using the font-based icons
+        // We're applying SVG masks
+        mask-size: contain;
+        mask-position: 50% 50%;
+        mask-repeat: no-repeat;
+        background: #F6902C;
+        width: 1em;
+        height: 1em;
+        
+    }
+    // custom icons
+    &[class*="appname-customicon1"] {
+        mask-image: url(../assets/img/iconotak.svg);
+    }
+    &[class*="appname-customicon2"] {
+        mask-image: url(../assets/img/iconcitizenjurnalist.svg);
+    }
+    &[class*="appname-customicon3"] {
+        mask-image: url(../assets/img/iconmediakit.svg);
+    }
+}

@@ -24,12 +24,12 @@
     <preference name="ShowSplashScreenSpinner" value="false" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <icon density="ldpi" src="resources/android/icon/ldpi_icon36px.png" />
-        <icon density="mdpi" src="resources/android/icon/mdpi_icon48px.png" />
-        <icon density="hdpi" src="resources/android/icon/hdpi_icon72px.png" />
-        <icon density="xhdpi" src="resources/android/icon/xdpi_icon96px.png" />
-        <icon density="xxhdpi" src="resources/android/icon/xxdpi_icon144px.png" />
-        <icon density="xxxhdpi" src="resources/android/icon/xxxhdpi192px.png" />
+        <icon density="ldpi" src="resources/android/icon/otaksukita_36x36px.png" />
+        <icon density="mdpi" src="resources/android/icon/otaksukita_mdpi_icon48x48px.png" />
+        <icon density="hdpi" src="resources/android/icon/otaksukita_hdpi_icon72x72px.png" />
+        <icon density="xhdpi" src="resources/android/icon/otaksukita_xdpi_icon96x96px.png" />
+        <icon density="xxhdpi" src="resources/android/icon/otaksukita_xxdpi_icon144x144px.png" />
+        <icon density="xxxhdpi" src="resources/android/icon/otaksukita_xxxdpi_icon192x192px.png" />
         <splash density="land-ldpi" src="resources/android/splash/drawable-land-ldpi-screen.png" />
         <splash density="land-mdpi" src="resources/android/splash/drawable-land-mdpi-screen.png" />
         <splash density="land-hdpi" src="resources/android/splash/drawable-land-hdpi-screen.png" />
